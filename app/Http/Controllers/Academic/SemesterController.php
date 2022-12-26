@@ -23,7 +23,7 @@ class SemesterController extends CollegeBaseController
 {
     protected $base_route = 'semester';
     protected $view_path = 'academic.semester';
-    protected $panel = 'Semester/Section';
+    protected $panel = 'Term/Section';
     protected $filter_query = [];
 
     public function __construct()

@@ -23,7 +23,7 @@ class SemesterAssetsController extends CollegeBaseController
 {
     protected $base_route = 'inventory.sem-assets';
     protected $view_path = 'inventory.sem-assets';
-    protected $panel = 'Sem./Sec. Assets';
+    protected $panel = 'Term./Sec. Assets';
     protected $filter_query = [];
 
     public function __construct()

@@ -20,7 +20,7 @@ class FacultyController extends CollegeBaseController
 {
     protected $base_route = 'faculty';
     protected $view_path = 'academic.faculty';
-    protected $panel = 'Faculty/Level/Class';
+    protected $panel = 'Class';
     protected $filter_query = [];
 
     public function __construct()

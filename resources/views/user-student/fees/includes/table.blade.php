@@ -34,7 +34,7 @@
                 <thead class="header">
                 <tr role="row">
                     <th>S.No.</th>
-                    <th>Sem./Sec.</th>
+                    <th>Term./Sec.</th>
                     <th>Head</th>
                     <th>DueDate</th>
                     <th>Amount </th>

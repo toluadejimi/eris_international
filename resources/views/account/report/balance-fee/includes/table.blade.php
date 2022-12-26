@@ -9,7 +9,7 @@
         <tr>
             <th>S.N.</th>
             <th>Faculty/Class</th>
-            <th>Sem./Sec.</th>
+            <th>Term./Sec.</th>
             <th>Reg. Num.</th>
             <th>Name of Student</th>
             <th>Guardian</th>

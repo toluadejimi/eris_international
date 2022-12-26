@@ -7,10 +7,10 @@
                 {!! Form::select('faculty', $data['faculties'], null, ['class' => 'form-control chosen-select', 'onChange' => 'loadSemesters(this);']) !!}
             </div>
 
-            <label class="col-sm-2 control-label">Sem./Sec.</label>
+            <label class="col-sm-2 control-label">Term./Sec.</label>
             <div class="col-sm-3">
                 <select name="semesters_id" class="form-control semesters_id" onChange="loadSubject(this)" >
-                    <option value=""> Select Sem./Sec. </option>
+                    <option value=""> Select Term./Sec. </option>
                 </select>
             </div>
         </div>
