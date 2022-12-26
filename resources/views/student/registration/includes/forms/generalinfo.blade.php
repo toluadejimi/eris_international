@@ -32,7 +32,7 @@
             </select>
         </div>
 
-        <label class="col-sm-2 control-label">Sem./Sec.</label>
+        <label class="col-sm-2 control-label">Term/Sec</label>
         <div class="col-sm-3">
             <select name="semester" class="form-control semester" required > </select>
             @include('includes.form_fields_validation_message', ['name' => 'semester'])
@@ -44,7 +44,7 @@
             @include('includes.form_fields_validation_message', ['name' => 'faculty'])
         </div>
 
-        <label class="col-sm-2 control-label">Sem./Sec.</label>
+        <label class="col-sm-2 control-label">Term/Sec</label>
         <div class="col-sm-3">
             {!! Form::select('semester', $data['semester'], null, ['class' => 'form-control',"disabled"]) !!}
             @include('includes.form_fields_validation_message', ['name' => 'semester'])

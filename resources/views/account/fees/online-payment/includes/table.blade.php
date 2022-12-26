@@ -14,7 +14,7 @@
                         <tr>
                             <th >S.N.</th>
                             <th>Class</th>
-                            <th>Sem./Sec.</th>
+                            <th>Term/Sec</th>
                             <th>Reg.Num.</th>
                             <th>Name</th>
                             <th>Balance</th>

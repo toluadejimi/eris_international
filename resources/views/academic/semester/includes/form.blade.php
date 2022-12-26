@@ -1,5 +1,5 @@
 <div class="form-group">
-    {!! Form::label('semester', 'Sem./Sec.', ['class' => 'col-sm-4 control-label']) !!}
+    {!! Form::label('semester', 'Term/Sec', ['class' => 'col-sm-4 control-label']) !!}
     <div class="col-sm-8">
         {!! Form::text('semester', null, ["placeholder" => "", "class" => "form-control border-form upper","required"]) !!}
         @include('includes.form_fields_validation_message', ['name' => 'semester'])
@@ -24,14 +24,14 @@
 </div>
 
 <div class="form-group">
-    {!! Form::label('semester', 'Course Find and Add', ['class' => 'col-sm-12 control-label align-center']) !!}
+    {!! Form::label('semester', 'Subject Find and Add', ['class' => 'col-sm-12 control-label align-center']) !!}
     <div class="col-sm-12">
         {!! Form::select('subject_id', [], null, ["placeholder" => "Type Course Name...", "class" => "col-xs-12 col-sm-12", "style" => "width: 100%;"]) !!}
         @include('includes.form_fields_validation_message', ['name' => 'subject_id'])
         <hr>
         <div class="align-right">
             <button type="button" class="btn btn-sm btn-primary" id="load-html-btn">
-                <i class="fa fa-plus bigger-120"></i> Add Course
+                <i class="fa fa-plus bigger-120"></i> Add Subject
             </button>
         </div>
     </div>

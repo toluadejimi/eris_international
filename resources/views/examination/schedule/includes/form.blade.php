@@ -5,10 +5,10 @@
 
     </div>
 
-    <label class="col-sm-2 control-label">Sem./Sec.</label>
+    <label class="col-sm-2 control-label">Term/Sec</label>
     <div class="col-sm-3">
         <select name="semester_select" class="form-control semester_select" onChange ="loadSubject(this)">
-            <option> Select Sem./Sec. </option>
+            <option> Select Term/Sec </option>
         </select>
     </div>
 </div>

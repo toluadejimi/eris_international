@@ -10,10 +10,10 @@
 
                     </div>
 
-                    <label class="col-sm-1 control-label">Sem./Sec.</label>
+                    <label class="col-sm-1 control-label">Term/Sec</label>
                     <div class="col-sm-2">
                         <select name="semester_select" class="form-control semester_select" id='transfer-semester'  required>
-                            <option> Select Sem./Sec. </option>
+                            <option> Select Term/Sec </option>
                         </select>
                     </div>
                 <label class="col-sm-1 control-label">Status</label>
@@ -42,7 +42,7 @@
                         </th>
                         <th>S.N.</th>
                         <th>Class</th>
-                        <th>Sem./Sec.</th>
+                        <th>Term/Sec</th>
                         <th>Reg. Date</th>
                         <th>Reg. Num.</th>
                         <th>Name of Student</th>
