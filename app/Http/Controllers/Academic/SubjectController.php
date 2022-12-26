@@ -20,7 +20,7 @@ class SubjectController extends CollegeBaseController
 {
     protected $base_route = 'subject';
     protected $view_path = 'academic.subject';
-    protected $panel = 'Subject';
+    protected $panel = 'Course';
     protected $filter_query = [];
 
     public function __construct()

@@ -13,7 +13,7 @@
             <tr>
                 <th>Reg No</th>
                 <th>Student Name</th>
-                <th>Term./Sec.</th>
+                <th>Sem./Sec.</th>
                 <th>Due Date</th>
                 <th>Fee Head</th>
                 <th>Amount</th>

@@ -28,10 +28,10 @@
 
     </div>
 
-    <label class="col-sm-2 control-label">Term./Sec.</label>
+    <label class="col-sm-2 control-label">Sem./Sec.</label>
     <div class="col-sm-2">
         <select name="semester_select[]" class="form-control semester_select" >
-            <option> Select Term./Sec. </option>
+            <option> Select Sem./Sec. </option>
         </select>
     </div>
 

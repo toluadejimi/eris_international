@@ -9,7 +9,7 @@
         <tr>
             <th>S.N.</th>
             <th>Faculty/Class</th>
-            <th>Term./Sec.</th>
+            <th>Sem./Sec.</th>
             <th>Reg.No.</th>
             <th>Name</th>
             <th>Date</th>

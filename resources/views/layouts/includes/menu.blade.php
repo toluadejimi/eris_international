@@ -1580,7 +1580,7 @@
                             <li class="{!! request()->is('faculty*')?'active':'' !!} hover">
                                 <a href="{{ route('faculty') }}">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    Class
+                                    Faculty/Level/Class
                                 </a>
                                 <b class="arrow"></b>
                             </li>
@@ -1621,7 +1621,7 @@
                             <li class="{!! request()->is('subject*')?'active':'' !!} hover">
                                 <a href="{{ route('subject') }}">
                                     <i class="menu-icon fa fa-caret-right"></i>
-                                    Subject
+                                    Course / Subject
                                 </a>
                                 <b class="arrow"></b>
                             </li>

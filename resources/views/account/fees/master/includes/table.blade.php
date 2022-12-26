@@ -20,7 +20,7 @@
                         </th>
                         <th >S.N.</th>
                         <th>Faculty/Class</th>
-                        <th>Term./Sec.</th>
+                        <th>Sem./Sec.</th>
                         <th>Reg. Num.</th>
                         <th>Name of Student</th>
                         <th></th>

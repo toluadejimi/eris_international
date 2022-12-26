@@ -45,7 +45,7 @@
                                         <td> {{  ViewHelper::getFacultyTitle( $student->faculty ) }}</td>
                                     </tr>
                                     <tr>
-                                        <th>Term./Sec.</th>
+                                        <th>Sem./Sec.</th>
                                         <td> {{  ViewHelper::getSemesterTitle( $student->semester ) }}</td>
                                     </tr>
                                     <tr>
