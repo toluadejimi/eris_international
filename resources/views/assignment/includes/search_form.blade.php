@@ -22,7 +22,7 @@
                             {!! Form::select('year', $data['years'], null, ['class' => 'form-control', 'onChange' => 'loadSemesters(this);']) !!}
                         </div>
 
-                        <label class="col-sm-1 control-label">Faculty/Class</label>
+                        <label class="col-sm-1 control-label">Class</label>
                         <div class="col-sm-4">
                             {!! Form::select('faculty', $data['faculties'], null, ['class' => 'form-control chosen-select', 'onChange' => 'loadSemesters(this);']) !!}
                         </div>

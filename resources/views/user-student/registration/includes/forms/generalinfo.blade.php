@@ -21,7 +21,7 @@
 </div>
 
 <div class="form-group">
-    <label class="col-sm-2 control-label">Faculty/Class</label>
+    <label class="col-sm-2 control-label">Class</label>
     <div class="col-sm-5">
         {!! Form::select('faculty', $data['faculties'], null, ['class' => 'form-control',"disabled"]) !!}
         @include('includes.form_fields_validation_message', ['name' => 'faculty'])

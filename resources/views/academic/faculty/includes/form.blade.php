@@ -1,5 +1,5 @@
 <div class="form-group">
-    {!! Form::label('faculty', 'Faculty/Class', ['class' => 'col-sm-4 control-label']) !!}
+    {!! Form::label('faculty', 'Class', ['class' => 'col-sm-4 control-label']) !!}
     <div class="col-sm-8">
         {!! Form::text('faculty', null, ["placeholder" => "e.g. Class One/Bachelor of Business Admin..", "class" => "form-control border-form upper","required"]) !!}
         @include('includes.form_fields_validation_message', ['name' => 'faculty'])

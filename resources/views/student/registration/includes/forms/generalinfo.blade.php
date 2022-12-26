@@ -22,9 +22,9 @@
 
 <div class="form-group">
     @if (!isset($data['row']))
-        <label class="col-sm-2 control-label">Faculty/Class</label>
+        <label class="col-sm-2 control-label">Class</label>
         <div class="col-sm-5">
-            <select name="faculty" class="chosen-select form-control" id="form-field-select-3" data-placeholder="Choose a Faculty/Class..."  onChange ="loadSemesters(this)" >
+            <select name="faculty" class="chosen-select form-control" id="form-field-select-3" data-placeholder="Choose a Class..."  onChange ="loadSemesters(this)" >
                 <option value="">  </option>
                 @foreach( $data['faculties'] as $key => $faculty)
                     <option value="{{ $key }}">{{ $faculty }}</option>
@@ -38,7 +38,7 @@
             @include('includes.form_fields_validation_message', ['name' => 'semester'])
         </div>
     @else
-        <label class="col-sm-2 control-label">Faculty/Class</label>
+        <label class="col-sm-2 control-label">Class</label>
         <div class="col-sm-5">
             {!! Form::select('faculty', $data['faculties'], null, ['class' => 'form-control chosen-select',"disabled"]) !!}
             @include('includes.form_fields_validation_message', ['name' => 'faculty'])

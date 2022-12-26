@@ -44,7 +44,7 @@
         function loadSemesters($this) {
             var faculty = $('select[name="faculty"]').val();
             if (faculty == 0) {
-                toastr.info("Please, Select Faculty/Class", "Info:");
+                toastr.info("Please, Select Class", "Info:");
                 return false;
             }
 

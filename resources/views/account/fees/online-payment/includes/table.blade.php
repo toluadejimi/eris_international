@@ -13,7 +13,7 @@
                     <thead>
                         <tr>
                             <th >S.N.</th>
-                            <th>Faculty/Class</th>
+                            <th>Class</th>
                             <th>Sem./Sec.</th>
                             <th>Reg.Num.</th>
                             <th>Name</th>

@@ -11,7 +11,7 @@ trait FacultySemesterScope{
     public function activeFaculties()
     {
         $faculty = Faculty::Active()->orderBy('faculty')->pluck('faculty','id')->toArray();
-         return array_prepend($faculty,'Select Faculty/Class','');
+         return array_prepend($faculty,'Select Class','');
     }
 
     public function activeSemester()

@@ -4,7 +4,7 @@
         {!! Form::open(['route' => $base_route.'.transfering', 'id' => 'bulk_action_form']) !!}
         <div class="clearfix">
             <div>
-                    <label class="col-sm-1 control-label">Faculty/Class</label>
+                    <label class="col-sm-1 control-label">Class</label>
                     <div class="col-sm-3">
                         {!! Form::select('faculty', $data['faculties'], null, ['class' => 'form-control', 'onChange' => 'loadSemesters(this);','id'=>'transfer-faculty', "required"]) !!}
 
@@ -41,7 +41,7 @@
                             </label>
                         </th>
                         <th>S.N.</th>
-                        <th>Faculty/Class</th>
+                        <th>Class</th>
                         <th>Sem./Sec.</th>
                         <th>Reg. Date</th>
                         <th>Reg. Num.</th>

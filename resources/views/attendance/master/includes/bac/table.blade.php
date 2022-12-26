@@ -22,7 +22,7 @@
                         <th>Reg. Date</th>
                         <th>Reg. Num.</th>
                         <th>Name of Student</th>
-                        <th>Faculty/Class</th>
+                        <th>Class</th>
                         <th>Sem./Sec.</th>
                     </tr>
                     </thead>

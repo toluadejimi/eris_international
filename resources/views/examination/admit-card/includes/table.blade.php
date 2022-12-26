@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Faculty/Class</label>
+                        <label class="col-sm-2 control-label">Class</label>
                         <div class="col-sm-4">
                             {!! Form::select('target_faculty', $data['faculties'], null, ['class' => 'form-control chosen-select', 'onChange' => 'loadSemesters(this);']) !!}
                         </div>
@@ -76,7 +76,7 @@
                             </label>
                         </th>
                         <th>S.N.</th>
-                        <th>Faculty/Class</th>
+                        <th>Class</th>
                         <th>Sem./Sec.</th>
                         <th>Reg. Date</th>
                         <th>Reg. Num.</th>

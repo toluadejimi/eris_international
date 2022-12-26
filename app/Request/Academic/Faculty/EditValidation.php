@@ -39,7 +39,7 @@ class EditValidation extends FormRequest
     {
         return [
             'faculty.required' => 'Please, Add Faculty.',
-            'faculty.unique' => 'The Faculty/Classalready exist. Please, edit or create new.',
+            'faculty.unique' => 'The Classalready exist. Please, edit or create new.',
         ];
     }
 }

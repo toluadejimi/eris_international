@@ -18,7 +18,7 @@
                             "ref_text" => "{"_token":"--}}
                         <tr>
                             <th>S.N.</th>
-                            <th>Faculty/Class</th>
+                            <th>Class</th>
                             <th>Sem./Sec.</th>
                             <th>Reg.Num</th>
                             <th>Student Name</th>

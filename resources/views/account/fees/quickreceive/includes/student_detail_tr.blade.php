@@ -53,7 +53,7 @@
             </div>
 
             <div class="profile-info-row">
-                <div class="profile-info-name"> Faculty/Class: </div>
+                <div class="profile-info-name"> Class: </div>
                 <div class="profile-info-value">
                     <span class="editable" id="faculty">{{  ViewHelper::getFacultyTitle( $student->faculty ) }}</span>
                 </div>

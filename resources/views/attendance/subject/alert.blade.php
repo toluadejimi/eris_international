@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
 
-                                <label class="col-sm-2 control-label">Faculty/Class</label>
+                                <label class="col-sm-2 control-label">Class</label>
                                 <div class="col-sm-4">
                                     {!! Form::select('faculty', $data['faculties'], null, ['class' => 'form-control chosen-select', 'onChange' => 'loadSemesters(this);']) !!}
 
@@ -109,7 +109,7 @@
             var faculty = $('select[name="faculty"]').val();
 
             if (faculty == 0) {
-                toastr.info("Please, Select Faculty/Class", "Info:");
+                toastr.info("Please, Select Class", "Info:");
                 return false;
             }
 
@@ -148,7 +148,7 @@
             }
 
             if (faculty == 0) {
-                toastr.info("Please, Select Faculty/Class", "Info:");
+                toastr.info("Please, Select Class", "Info:");
                 return false;
             }
 

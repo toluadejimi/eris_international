@@ -15,7 +15,7 @@
                 <thead>
                 <tr>
                     <th>S.N.</th>
-                    <th width="45%">Faculty/Class</th>
+                    <th width="45%">Class</th>
                     <th width="50%">Semester/Sec.</th>
                 </tr>
                 </thead>

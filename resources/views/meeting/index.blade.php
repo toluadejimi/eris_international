@@ -99,7 +99,7 @@
                 if(flag == true){
                     location.href = url;
                 }else{
-                    toastr.info("Please, Filter with Faculty/Class Sem./Sec. & Subject", "Info:");
+                    toastr.info("Please, Filter with Class Sem./Sec. & Subject", "Info:");
                     return false;
                 }
 
@@ -135,7 +135,7 @@
 
 
             if (faculty == 0) {
-                toastr.info("Please, Select Faculty/Class", "Info:");
+                toastr.info("Please, Select Class", "Info:");
                 return false;
             }
 

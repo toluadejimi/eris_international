@@ -68,7 +68,7 @@
                 }
 
                 if (faculty == 0) {
-                    toastr.info('Please Select Faculty/Class','Info:');
+                    toastr.info('Please Select Class','Info:');
                     return false;
                 }
 

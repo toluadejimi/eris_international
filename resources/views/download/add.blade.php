@@ -36,7 +36,7 @@
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                Info: Please, select target Faculty/Class, Sem./Sec. And Subject for download access permission. Other wise it show all the user.
+                                Info: Please, select target Class, Sem./Sec. And Subject for download access permission. Other wise it show all the user.
                             </div>--}}
                             @include($view_path.'.includes.form')
                             <div class="clearfix form-actions">
@@ -94,7 +94,7 @@
 
 
             if (faculty == 0) {
-                toastr.info("Please, Select Faculty/Class", "Info:");
+                toastr.info("Please, Select Class", "Info:");
                 return false;
             }
 
